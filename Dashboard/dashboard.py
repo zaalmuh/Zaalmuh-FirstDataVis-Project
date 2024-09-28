@@ -81,7 +81,7 @@ st.header('Brazilian E-Commerce Dashboard :sparkles:')
 st.write("""
             Welcome to Brazilian E-Commerce Dashboard, for information about dataset source:
          """)
-st.page_link('https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce', label="Sumber Dataset")
+st.page_link('https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce', label="Dataset Source")
 st.subheader("Best & Worst Product Category Based on Sales")
  
 fig, ax = plt.subplots(nrows=2, ncols=1, figsize=(35, 40))
