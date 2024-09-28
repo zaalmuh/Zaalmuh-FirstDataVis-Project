@@ -117,8 +117,8 @@ sns.barplot(y="customer_id",
 ax.set_title("Cities with the Most Customers", loc="center", fontsize=50)
 ax.set_ylabel(None)
 ax.set_xlabel(None)
-ax.tick_params(axis='x', labelsize=35)
-ax.tick_params(axis='y', labelsize=30)
+ax.tick_params(axis='x', labelsize=20)
+ax.tick_params(axis='y', labelsize=20)
 st.pyplot(fig)
 
 st.subheader("Customer Demographics by Payment Type")
